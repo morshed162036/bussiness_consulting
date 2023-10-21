@@ -1,0 +1,647 @@
+/* nav section start */
+.active {
+    color: #f04c23;
+}
+.active:hover {
+    color: #000000;
+}
+#nav_text {
+    color: black;
+}
+
+#nav_text:hover {
+    color: #f04c23;
+}
+
+/* nav section end */
+
+/* sort about section start */
+
+#about_img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+    #about_img {
+        margin-left: 100px;
+    }
+}
+
+/* sort about section end */
+
+/* why choose us start */
+#choose-text {
+    color: #f04c23 !important;
+}
+
+/* why choose us end */
+
+/* number section start */
+#numbers {
+    background-color: black !important;
+}
+
+/* number section end */
+
+/* rigth arrow color */
+#arrow-right {
+    color: #f04c23 !important;
+}
+
+/* Pricing Section Start */
+.pricing-one {
+    position: relative;
+    display: block;
+    padding: 120px 0 90px;
+    z-index: 1;
+}
+
+.pricing-one__shape-1 {
+    position: absolute;
+    top: 140px;
+    left: 155px;
+    z-index: -1;
+}
+
+.pricing-one__shape-2 {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    z-index: -1;
+}
+
+.section-title {
+    position: relative;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 61px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.pricing-one__price-title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    font-family: var(--bixola-font-two);
+    color: black;
+}
+
+.pricing-one__text {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#montly {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.pricing-one__price {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #f04c23;
+    font-family: var(--bixola-font);
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+.pricing-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+/* a,
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none !important;
+    color: white !important;
+} */
+a:hover {
+    text-decoration: none !important;
+}
+
+.pricing-one__btn {
+    background-color: transparent;
+    color: black !important;
+    border: 1px solid #d0d5dd;
+    width: 100%;
+}
+
+.thm-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none !important;
+    background-color: #f04c23;
+    color: black !important;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 33px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    z-index: 1;
+}
+
+.pricing-one__single {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: var(--bixola-bdr-radius);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.pricing-one__single-inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    border-radius: var(--bixola-bdr-radius);
+    border: 2px solid #eaecf0;
+    border-top: 1px solid #eaecf0;
+    border-bottom: 1px solid #eaecf0;
+    background-color: white;
+    padding: 37px 30px 38px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.pricing-one__points-list {
+    position: relative;
+    display: block;
+    margin-bottom: 38px;
+    padding-left: 18px;
+}
+
+.pricing-one__points-list li:first-child i {
+    color: #f52549;
+}
+
+.pricing-one__price-box {
+    position: relative;
+    display: block;
+    padding-bottom: 29px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #eaecf0;
+}
+
+.pricing-one__points-list li .icon {
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-one__points-list li .text {
+    margin-left: 20px;
+}
+
+.pricing-one__main-tab-box {
+    position: relative;
+    display: block;
+}
+
+.pricing-one__main-tab-box .tab-buttons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.section-title__tagline {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 16px;
+    color: #f64463;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    z-index: 1;
+}
+
+.section-title__title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 700;
+    margin-top: 9px;
+    font-family: var(--bixola-font-two);
+    text-transform: capitalize;
+}
+
+#icon-check {
+    color: #f04c23;
+}
+
+/* Pricing Section End */
+
+/* blog section start */
+#page-link {
+    color: #f04c23 !important;
+}
+
+/* blog section end */
+
+/* mehejabu */
+
+/* about-us */
+.page-header {
+    position: relative;
+    display: block;
+    padding: 150px 0 139px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.page-header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.page-header__bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(#000000 -50%, rgba(34, 34, 34, 0.5) 50%);
+    z-index: -1;
+}
+
+.page-header__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 15;
+}
+
+.page-header__inner h2 {
+    font-size: 56px;
+    color: white;
+    font-weight: 700;
+    line-height: 66px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.thm-breadcrumb {
+    position: relative;
+    display: block;
+}
+
+.thm-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    color: #eaecf0;
+    font-size: 16px;
+    text-transform: capitalize;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li + li {
+    margin-left: 1px;
+}
+
+.thm-breadcrumb li a {
+    position: relative;
+    display: inline-block;
+    color: var(--bixola-base);
+    color: #eaecf0;
+    font-size: 16px;
+    text-transform: capitalize;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li:hover a {
+    color: var(--bixola-base);
+}
+
+.thm-breadcrumb li span {
+    position: relative;
+    display: inline-block;
+    font-size: 19px;
+    color: #eaecf0;
+    top: 3px;
+    transform: rotate(-90deg);
+}
+
+.md_details p {
+    margin-top: -31px;
+}
+
+/* .devider{
+    border-top: 2px solid peru;
+    width: 100%;
+
+} */
+
+/* about-us  */
+
+/* services details */
+
+.services_headig {
+    font-weight: 800;
+    /* color: #F64463; */
+}
+
+.services-details__services-box {
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.services-details__services-list {
+    position: relative;
+    display: block;
+}
+
+.services-details__services-list li {
+    position: relative;
+    display: block;
+}
+
+.services-details__services-list li + li {
+    margin-top: 8px;
+}
+
+.services-details__services-list li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: #f04c23;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: var(--bixola-font-two);
+    padding: 8px 25px 8px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.services-details__services-list li a:hover,
+.services-details__services-list li.active a {
+    color: white;
+}
+
+.services-details__services-list li a:hover::before,
+.services-details__services-list li.active a::before {
+    transform: scaleY(1);
+}
+
+.services-details__title-2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+.services-details__text-2 {
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+.services-details__points {
+    position: relative;
+    display: block;
+}
+
+.services-details__points li {
+    position: relative;
+    display: block;
+}
+
+.services-details__points li + li {
+    margin-top: 8px;
+}
+
+.services-details__points li p {
+    font-weight: 500;
+    color: var(--bixola-black);
+}
+
+/*--------------------------------------------------------------
+# Appointment One
+--------------------------------------------------------------*/
+.appointment-one {
+    position: relative;
+    display: block;
+}
+
+.appointment-one__inner {
+    position: relative;
+    display: block;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #eaecf0;
+    border-bottom: 0;
+    background-color: #f7f9fa;
+    border-top-left-radius: var(--bixola-bdr-radius);
+    border-top-right-radius: var(--bixola-bdr-radius);
+    padding: 100px 0 100px;
+}
+
+.appointment-one__left {
+    position: relative;
+    display: block;
+    margin-right: 58px;
+}
+
+.appointment-one__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.appointment-one__text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.appointment-one__right {
+    position: relative;
+    display: block;
+}
+
+.appointment-one__form-box {
+    position: relative;
+    display: block;
+}
+
+.appointment-one__form {
+    position: relative;
+    display: block;
+}
+
+.appointment-one__input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.appointment-one__input-title {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-family: var(--bixola-font);
+    margin-bottom: 2px;
+}
+
+.appointment-one__input-title span {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-transform: lowercase;
+}
+
+.appointment-one__input-box input[type="text"],
+.appointment-one__input-box input[type="email"] {
+    height: 38px;
+    width: 100%;
+    border: none;
+    padding-right: 30px;
+    outline: none;
+    font-size: 14px;
+    color: #414651;
+    display: block;
+    font-weight: 400;
+    background-color: transparent;
+    border-bottom: 1px solid #d0d5dd;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.appointment-one__input-box input[type="text"]:focus,
+.appointment-one__input-box input[type="email"]:focus {
+    border-bottom: 1px solid black;
+}
+
+.appointment-one__showing-sort {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.appointment-one__showing-sort
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(
+        .input-group-btn
+    ) {
+    position: relative;
+    display: block;
+    width: 100% !important;
+}
+
+.appointment-one__showing-sort .bootstrap-select > .dropdown-toggle::after {
+    display: none;
+}
+
+.appointment-one__showing-sort .bootstrap-select > .dropdown-toggle {
+    position: relative;
+    height: 38px;
+    outline: none !important;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: #414651 !important;
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 400;
+    box-shadow: none !important;
+    background-repeat: no-repeat;
+    background-size: 14px 12px;
+    background-position: right 25.75px center;
+    /* border-bottom: 1px solid #D0D5DD; */
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    /* width: 100%; */
+}
+
+.appointment-one__showing-sort .bootstrap-select > .dropdown-toggle:focus {
+    border-bottom: 1px solid black;
+}
+
+.appointment-one__showing-sort .bootstrap-select > .dropdown-toggle:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-family: "Font Awesome 5 Free";
+    content: "\f107";
+    font-weight: 900;
+    font-size: 14px;
+    /* color: #414651; */
+}
+
+.appointment-one__showing-sort .dropdown-menu {
+    border-radius: 0;
+}
+
+.appointment-one__input-box textarea {
+    width: 100%;
+    height: 127px;
+    margin-bottom: 0px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #414651;
+    display: block;
+    font-weight: 400;
+    background-color: transparent;
+    border-bottom: 1px solid #d0d5dd;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.appointment-one__input-box textarea:focus {
+    border-bottom: 1px solid var(--bixola-black);
+}
+
+.appointment-one__btn-box {
+    position: relative;
+    display: block;
+}
+
+.appointment-one__btn {
+    border: none;
+}
+
+.appointment-one__input-box.text-message-box {
+    height: 127px;
+}
+
+.appointment-one__input-box-2 {
+    margin-top: -58px;
+    margin-bottom: 30px;
+}
+
+/* mehejabul end */
