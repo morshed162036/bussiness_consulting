@@ -18,7 +18,7 @@
     </section>
     <!--Page Header End-->
 
-    <div id="aboutus" class="row align-items-xl-center pt-4 mt-5 ">
+    <div id="aboutus" class="row align-items-xl-center pt-4 mt-5 px-3">
         <div class="col-md-10 col-lg-6 mb-5 mb-lg-0 ">
             <div class="row row-gutter-sm ">
                 <div class="col-6  " id="about">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6 ">
+        <div class="col-lg-6">
             <h2 class="custom-highlight-text-1 d-inline-block line-height-5 text-4 positive-ls-3 font-weight-medium text-color-primary mb-2 appear-animation"
                 data-appear-animation="fadeInUpShorter">Build your Business in Dubai</h2>
             <h3 class="text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation"

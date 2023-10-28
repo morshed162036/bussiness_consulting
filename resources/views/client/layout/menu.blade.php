@@ -78,7 +78,7 @@
 						<div class="header-column">
 							<div class="header-row">
 								<div class="header-logo">
-									<a href="index.html">
+									<a href="{{ route('client.home') }}">
 
 										<img src="@if ($company->logo)
                                             {{ asset('images/logo/'.$company->logo) }}

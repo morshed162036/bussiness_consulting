@@ -7,7 +7,7 @@
 				<div class="row pt-3 mt-5">
 					<div class="col-lg-3 mb-4 col-md-6  mb-lg-0">
 
-						<a href="demo-business-consulting-3.html" class="text-decoration-none">
+						<a href="{{ route('client.home') }}" class="text-decoration-none">
 							<img src="@if ($company->logo)
                                 {{ asset('images/logo/'.$company->logo)}}
                             @endif" class="img-fluid mb-4" width="123" height="33"

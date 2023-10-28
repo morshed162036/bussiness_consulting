@@ -43,9 +43,9 @@
                                             <p class="text-4 text-color-light font-weight-light opacity-7 text-center mt-2 mb-4"
                                                 data-plugin-animated-letters
                                                 data-plugin-options="{'startDelay': 1000, 'firstLoadNoAnim': true, 'minWindowWidth': 0, 'animationSpeed': 25}">
-                                                {{ $banner->first_text }}
+                                                {{ $banner->second_text }}
                                             </p>
-                                            <a href=""
+                                            <a href="{{ route('client.contact-page') }}"
                                                 class="btn btn-primary btn-rounded font-weight-bold text-3 px-5 py-3 appear-animation"
                                                 data-appear-animation="fadeInUpShorter"
                                                 data-appear-animation-delay="1600"
@@ -157,9 +157,11 @@
                                     <h4 class="font-weight-semibold text-color-black text-6 text-center mt-4 mb-1">{{ $service->title }}
                                     </h4>
                                     <div class="card-body d-flex align-items-center custom-view-more px-4">
-                                        <div class="card-text w-100 mb-0">@if ($service->service_details)
-                                           {!! $service->service_details->description !!}
-                                        @endif</div>
+                                        <div class="card-text w-100 mb-0">
+                                            @if ($service->service_details)
+                                                {!! $service->service_details->description !!}
+                                            @endif
+                                        </div>
                                         <img width="50" height="50" class="w-auto" id="arrow-right"
                                             src="{{ asset('business/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon
                                             data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
@@ -278,7 +280,7 @@
                                                         containing.</p>
                                                 </div>
                                                 <div>
-                                                     {!! $pricingplan->title !!}
+                                                     {!! $pricingplan->details !!}
                                                 </div>
                                                 {{-- <div class="pricing-one__btn-box">
                                                     <a href="price.html" class="thm-btn pricing-one__btn text-center">Buy

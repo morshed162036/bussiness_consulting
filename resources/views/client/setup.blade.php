@@ -30,8 +30,7 @@
                         <div class="anim-hover-inner-translate-top-20px transition-3ms">
                             <img width="72" height="73" src="@if ($setup->image)
                                 {{ asset('images/setup/'.$setup->image) }}
-                            @endif" alt="" data-icon
-                                data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+                            @endif" alt="image"/>
                             <h4 class="card-title mt-4 mb-2 text-5 font-weight-bold">{{ $setup->title }}</h4>
                         </div>
                         <div

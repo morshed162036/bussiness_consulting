@@ -43,10 +43,8 @@
                                 @endif">{{ $setup->title }}
                                     <span>
                                         <img width="50" height="50" class="w-auto"
-                                            src="{{ asset('business/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt=""
-                                            data-icon
-                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}"
-                                            style="width: 50px;" />
+                                            src="{{ asset('business/img/demos/business-consulting-3/icons/arrow-right.svg') }}" alt="" data-icon
+                                            data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" style="width: 50px;" />
                                     </span>
                                 </a>
                             </li>
@@ -69,7 +67,7 @@
                         <a class="text-color-dark text-color-hover-primary text-decoration-none font-weight-semibold text-3-5 ms-2"
                             href="tel:+88{{ $company->phone }}">{{ $company->phone }}</a>
                     </span>
-                    <a href="contact.html"
+                    <a href="{{ route('client.contact-page') }}"
                         class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
                         data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>Contact
                             Us</span></a>
@@ -82,7 +80,7 @@
                         Ready to Start?</h3>
                     <p class="pb-1 mb-3">Curabitur vulputate posuere tortor luctus vulputate laoreet pretium
                         blandit. </p>
-                    <a href="contact.html"
+                    <a href="{{ route('client.contact-page') }}"
                         class="btn btn-primary custom-btn-style-1 font-weight-semibold btn-px-4 btn-py-2 text-3-5"
                         data-cursor-effect-hover="plus" data-cursor-effect-hover-color="light"><span>Get a
                             Quote</span></a>
